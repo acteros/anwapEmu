@@ -96,7 +96,7 @@ ConfVersion=2007062001
 #
 ###################################################################################################################
 
-LoginDatabaseInfo = "127.0.0.1;3306;root;mangos;realmd"
+LoginDatabaseInfo = "127.0.0.1;3306;anwapEmu;anwapEmu;login"
 LogsDir = ""
 MaxPingTime = 30
 RealmServerPort = 3724
@@ -114,3 +114,7 @@ RealmsStateUpdateDelay = 20
 WrongPass.MaxCount = 0
 WrongPass.BanTime = 600
 WrongPass.BanType = 0
+MinBuild =  10072
+MaxBuild =  10072
+
+
