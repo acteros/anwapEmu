@@ -509,8 +509,8 @@ bool AuthSocket::_HandleLogonProof()
 
     ///- Check if the client has one of the expected version numbers
     bool valid_version=false;
-    int MinBuild = sConfig.GetIntDefault("MinBuild", 8606); 
-    int MaxBuild = sConfig.GetIntDefault("MaxBuild", 8606); 
+    int MinBuild = sConfig.GetIntDefault("MinBuild", 10072); 
+    int MaxBuild = sConfig.GetIntDefault("MaxBuild", 10072); 
  	
      if(ch->build >= MinBuild && ch->build <= MaxBuild) 
 
